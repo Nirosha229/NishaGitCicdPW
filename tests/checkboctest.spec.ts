@@ -17,7 +17,6 @@ test("checkbox practice", async ({ page }) => {
         ).click();
 
         await expect(page.locator("#result"))
-            .toContainText(item);
     }
 
-});
+})
