@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+
+
+    "smoke": "npx playwright test tests/loginpagetest.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
