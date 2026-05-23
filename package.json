@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "allure": "npx allure serve allure-results",
-    "clientapp" : "npx playwright test tests/loginpagetest.spec.ts",
+    "clientapp" : "npx playwright test tests/ClientTest.spec.ts",
 
 
     "smoke": "npx playwright test tests/loginpagetest.spec.ts"
