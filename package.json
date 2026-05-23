@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "allure": "npx allure serve allure-results",
-    "clientapp" : "npx playwright test tests/ClientTest.spec.ts",
-
-
+    "clientapp": "npx playwright test tests/ClientTest.spec.ts",
     "smoke": "npx playwright test tests/loginpagetest.spec.ts"
   },
   "keywords": [],
@@ -16,6 +14,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.0"
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.9.0"
   }
 }
