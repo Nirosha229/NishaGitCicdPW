@@ -37,7 +37,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'on',
     video : 'on',
-    headless : false
+    headless : false,
+      slowMo: 1000
     
   },
 
