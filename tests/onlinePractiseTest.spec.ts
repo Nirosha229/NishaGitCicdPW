@@ -33,7 +33,7 @@ test("locators test",async ({page})=>{
 })
 
 
-test.only("checkbox practice", async ({ page }) => {
+test("checkbox practice", async ({ page }) => {
 
     await page.goto("https://demoqa.com/checkbox");
 
