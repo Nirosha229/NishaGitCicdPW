@@ -6,7 +6,8 @@
   "scripts": {
     "allure": "npx allure serve allure-results",
     "clientapp": "npx playwright test tests/ClientTest.spec.ts",
-    "smoke": "npx playwright test tests/loginpagetest.spec.js"
+    "smoke": "npx playwright test tests/loginpagetest.spec.js",
+    "regression": "npx playwright test tests/ClientTest.spec.ts tests/E2EEcommercetest.spec.ts tests/loginpagetest.spec.js"
   },
   "keywords": [],
   "author": "",
